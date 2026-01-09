@@ -10,6 +10,6 @@ st.title("X Printer 3000 🚀")
 
 if st.button("Unleash the Xs"):
     print("your cooked womp womp maka maka")
-    for _ in range(time)
+    for _ in range(time):
         print_x_block(10000000)  # Reasonable number of rows
 
