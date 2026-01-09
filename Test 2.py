@@ -1,11 +1,9 @@
 import streamlit as st
 
 def print_x_block(times):
-    x_row = "X" * 1000000  # Much smaller row
+    x_row = "XXXXX" * 1000000  # Much smaller row
     for _ in range(times):
         st.text(x_row)
-        for _ in range(times):
-            st.text(x_row)
 
 st.title("X Printer 3000 🚀")
 
